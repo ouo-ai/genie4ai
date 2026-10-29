@@ -3,16 +3,15 @@ class: auditor-output
 status: DONE_WITH_CONCERNS
 objective: "Genie 4 AI prelaunch content and on-page review"
 key_findings:
-  - title: "Provider funding blocks real generation verification"
-    severity: high
-    evidence: "World Labs API returned 0 credits; checkout/generation pause is tested."
-  - title: "GSC credential is invalid"
-    severity: high
-    evidence: "Google OAuth invalid_grant: account not found."
-evidence_summary: "Local browser inspection, four automated test cases, nine HTTP checks, three signature checks; no real charge/generation."
+  - title: "Provider funding restored with replacement key"
+    severity: info
+    evidence: "Replacement key authenticated with 69,500 credits; one production generation completed with four SPZ files and panorama; exactly $5 app credits debited."
+  - title: "GSC submission completed through Chrome"
+    severity: info
+    evidence: "DNS ownership verified; Google successfully processed sitemap and discovered five pages. Service-account automation still needs valid credentials."
+evidence_summary: "Local and production browser inspection, four automated test cases, nine HTTP checks, three signature checks, live checkout session without a card charge; one real provider generation completed with downloadable assets."
 open_loops:
-  - "Fund existing World Labs API account and verify one real generation."
-  - "Replace or restore GSC service account and submit sitemap."
+  - "Restore valid GSC service-account credentials for future automated submissions if needed."
   - "Build authentic output examples and brand/author evidence over time."
 recommended_next_skill: technical-seo-checker
 cap_applied: false
@@ -27,7 +26,7 @@ Landing page: Genie 4 AI. Primary keyword preserved exactly. All 80 item names f
 Before cap: 61.25/100 (unweighted provisional content-readiness score).
 Veto check: C01 Partial (honest commercial scope despite mixed keyword intent); T04 Pass; R10 Pass. Zero veto failures.
 After cap: 61.25/100, no cap.
-Handoff: DONE_WITH_CONCERNS; funding and Search Console remain open. This score is not a ranking prediction. Low authority/experience scores reflect a new launch and absent evidence, not fabricated proof.
+Handoff: DONE_WITH_CONCERNS. Funding and browser-based Search Console submission were resolved during production verification. The dimension scores preserve the initial content review below; the operational follow-up is recorded separately. This score is not a ranking prediction. Low authority/experience scores reflect a new launch and absent evidence, not fabricated proof.
 
 ## C — 90/100
 
@@ -151,4 +150,6 @@ Handoff: DONE_WITH_CONCERNS; funding and Search Console remain open. This score 
 
 ## Technical and on-page checks
 
-Local lint and production build passed with type checking enabled. Exact keyword in title/H1/intro/FAQ/schema/OG/Twitter. Canonical/robots/sitemap use the same real production base. Account/studio noindex. Mobile 390px has no horizontal overflow. Seven FAQ schema answers match visible expandable answers. No aggregate-rating schema, fabricated social proof or real-time simulation claim. Public HTTPS, live sitemap and final GSC submission require production verification.
+Local lint and production build passed with type checking enabled. Exact keyword in title/H1/intro/FAQ/schema/OG/Twitter. Canonical/robots/sitemap use the same real production base. Account/studio noindex. Mobile 390px has no horizontal overflow. Seven FAQ schema answers match visible expandable answers. No aggregate-rating schema, fabricated social proof or real-time simulation claim.
+
+Production follow-up: public HTTPS and sitemap XML return 200. Cloudflare DNS and SSL are active. Chrome Search Console verified the domain property and successfully processed the sitemap, discovering five pages. The replacement provider key is funded; a single production generation completed with four SPZ files and a panorama, debiting exactly $5 app credits and 1,580 upstream credits. Live Dodo checkout returned a checkout.dodopayments.com URL, and the enabled webhook rejects unsigned payloads with 401. No real card charge was submitted.

@@ -27,4 +27,4 @@ Integration tests create isolated temporary users/receipts, mock external billin
 
 One generation reserves $5 credits. Monthly credits expire without rollover. Annual subscriptions receive monthly allocations. Dodo verified paid service periods grant credits; checkout redirects and subscription activation alone do not.
 
-See `docs/operations.md` and `docs/seo-brief.md`. The reused 3D viewer carries the MIT notice in `docs/REFERENCE-LICENSE.md`.
+Production: https://genie4ai.ai. See `docs/launch-verification.md`, `docs/operations.md` and `docs/seo-brief.md`. The reused 3D viewer carries the MIT notice in `docs/REFERENCE-LICENSE.md`.
